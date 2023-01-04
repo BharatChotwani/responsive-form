@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.registration-page {
+  height: 100%;
+  background-color: #0081c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.sign-up {
+  flex: 1; /* will stretch the width of the signup-form to fit the screen and that’s what I want for the small screen. */
+  max-width: 600px; /*  the bigger screen. For that, set the max-width to 600px. */
+  background-color: #ffc93c;
+  border: 1px solid #86e5ff;
+}
