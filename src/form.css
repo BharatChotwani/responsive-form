@@ -65,7 +65,8 @@ input[type="email"],
 input[type="password"],
 input[type="file"],
 input[type="number"],
-select {
+select,
+textarea {
   width: 100%;
   font-size: 18px;
   height: 34px;
@@ -114,8 +115,32 @@ select {
   text-align: center;
 }
 
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ffc93c;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: #bcf5e7;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 500px) {
   .row {
     flex-direction: column;
+  }
+
+  .btn {
+    flex: 1;
   }
 }
