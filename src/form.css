@@ -74,7 +74,25 @@ input[type="password"] {
   outline: none;
 }
 
-@media only screen and (max-width: 500px) {
+/* checkbox & radio button */
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+}
+
+.radio-group div,
+.checkbox-group div {
+  flex: 1;
+}
+
+.radio-group label,
+.checkbox-group label {
+  color: #666;
+  cursor: pointer;
+}
+
+. @media only screen and (max-width: 500px) {
   .row {
     flex-direction: column;
   }
