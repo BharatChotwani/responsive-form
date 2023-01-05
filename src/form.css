@@ -62,7 +62,8 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+select {
   font-size: 18px;
   height: 34px;
   padding-left: 10px;
@@ -92,7 +93,25 @@ input[type="password"] {
   cursor: pointer;
 }
 
-. @media only screen and (max-width: 500px) {
+.range-group {
+  display: flex;
+}
+
+.range-group input {
+  flex: 1;
+}
+
+.range-group label {
+  margin-left: 10px;
+  background-color: #ffc93c;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 17px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
   .row {
     flex-direction: column;
   }
