@@ -63,7 +63,10 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
+input[type="file"],
+input[type="number"],
 select {
+  width: 100%;
   font-size: 18px;
   height: 34px;
   padding-left: 10px;
