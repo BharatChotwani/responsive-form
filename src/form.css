@@ -71,3 +71,9 @@ input[type="text"] {
   background: white;
   outline: none;
 }
+
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+}
