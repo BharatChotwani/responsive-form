@@ -51,7 +51,7 @@ body {
   flex: 1; /* flex will stretch the width of input-group inside form(sing-up) */
   display: flex;
   flex-direction: column;
-  margin: 10px 5px;
+  margin: 10px 10px;
 }
 
 label {
@@ -71,7 +71,7 @@ textarea {
   font-size: 18px;
   height: 34px;
   padding-left: 10px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   color: #666;
   border: 1px solid #d6d6d6;
   border-radius: 4px;
